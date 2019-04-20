@@ -54,7 +54,7 @@ Basic script which will download all images at a given URL to a given directory,
 
 This script is for albums with more than 10 images. It will download all images from a specified album URL to your specified directory, skipping duplicates.
 
-imgurDownloader.sh your/download/directory http://imgur.com/a/yourweirdalbum
+`imgurDownloader.sh your/download/directory http://imgur.com/a/yourweirdalbum`
 
 
 ## imgurListDownloader.sh
