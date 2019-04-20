@@ -1,7 +1,7 @@
 imgurDownloader2019
 -------------------
 
-This is set of bash scripts which automates downloading images and their descriptions from imgur.
+This is a set of bash scripts which automates downloading images and their descriptions from imgur.
 
 ![screenshot](/screenShots/00.png)
 
@@ -15,14 +15,18 @@ Heartbeat
 Features
 --------
 
-- Will download all images from single gallery **imgurDownloader.sh**
-- Bulk downloader which download multiple galleries form a list (given in a filename). **imgurListDownloader.sh**
-- Will download given URL into temp folder and display it in specified viewer **imgurView.sh**
-- Will ignore duplicate galleries and duplicate files.
-- Escapes strange characters in titles.
-- Stores descriptions to images to separate text file.
+- NO API TOKEN NEEDED!!!
+- Download all images from a small gallery **imgurDownloader.sh**
+- Download all images from a large gallery **imgurDownloaderAll.sh**
+- Bulk download multiple galleries from a text list **imgurListDownloader.sh**
+- Download a given URL into a temp folder and display it in a specified viewer **imgurView.sh**
 
-* Note : This version eliminates the ![imgurBufferView](https://github.com/truhlikfredy/imgurDownloader2015/blob/master/imgurBufferView.sh) script. imgurBufferView's primary dependency, ![xsel](https://github.com/kfish/xsel), requires a stupendous number of dependencies, itself, in order to operate. If you desire or require the functionality of imgurBufferView, please, use ![the previous iteration](https://github.com/truhlikfredy/imgurDownloader2015/tree/master), which requires you to independently install **xsel**, or fork this version.   
+These Scripts Will:
+- Ignore duplicate galleries and duplicate files
+- Escape strange characters in titles
+- Stores image descriptions in a separate text file
+
+* Note : This 2019 version eliminates the ![imgurBufferView](https://github.com/truhlikfredy/imgurDownloader2015/blob/master/imgurBufferView.sh) script. imgurBufferView's primary dependency, ![xsel](https://github.com/kfish/xsel), requires a stupendous number of dependencies, itself, in order to operate. If you desire or require the functionality of imgurBufferView, please, use ![the previous iteration](https://github.com/truhlikfredy/imgurDownloader2015/tree/master), which requires you to independently install **xsel**, or fork this version.   
 
 
 Dependencies
@@ -35,7 +39,6 @@ Dependencies
 
 - jshon (http://kmkeen.com/jshon/)
 'git clone git@github.com:keenerd/jshon.git'
-
 
 
 imgurDownloader.sh
@@ -76,7 +79,7 @@ Install.sh
 ----------
 
 Not really needed, it will just:
-- Download **jshon** and **jansson** and will try to build them.
+- Download **jshon** and **jansson** and try to build them.
 - Copy scripts into **usr/local/opt/imgurDownloader** and place symbolic links in your **usr/local/bin** directory. If you do not have **usr/local/bin** in your **PATH** environment, the install script will fail.
 
 Installation can be done by hand: just copy the **\*.sh** files somewhere where into your **PATH**. And make sure **jansson** and **jshon** (needed for all scripts) are installed.
