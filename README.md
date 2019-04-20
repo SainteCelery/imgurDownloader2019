@@ -47,11 +47,11 @@ Note: This 2019 version eliminates the [imgurBufferView](https://github.com/truh
 
 ## imgurDownloader.sh
 
-Basic script which will download all images on given URL to given directory, skipping duplicates.
+Basic script which will download all images at a given URL to a given directory, skipping duplicates.
 
 ## imgurDownloader.sh
 
-This script is for albums with more than 10 images. It will download all images from a given album URL to your specified directory, skipping duplicates.
+This script is for albums with more than 10 images. It will download all images from a specified album URL to your specified directory, skipping duplicates.
 
 Usage: `imgurDownloader.sh your/download/directory http://imgur.com/a/yourweirdalbum`
 
