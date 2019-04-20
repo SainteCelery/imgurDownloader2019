@@ -14,7 +14,7 @@ This is a set of bash scripts which automates downloading images and their descr
     
 -   Download all images from a small (x ≤ 10 pix) gallery **imgurDownloader.sh**
     
--   Download all images from a large (∞ ≥ 10pix) gallery **imgurDownloaderAll.sh**
+-   Download all images from a large (∞ ≥ 11 pix) gallery **imgurDownloaderAll.sh**
     
 -   Bulk download multiple galleries from a text list **imgurListDownloader.sh**
     
